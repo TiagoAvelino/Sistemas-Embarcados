@@ -1,6 +1,7 @@
 Para todas as questões, compile-as com o gcc e execute-as via terminal.
 
 1. Crie um "Olá mundo!" em C.
+```C
 
 2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
