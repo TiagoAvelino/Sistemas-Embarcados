@@ -25,4 +25,5 @@
 	Os tipos de arquitetura do tipo PICs, Intel 805 I e ARM 9, permite a leitura simultanea dos dados e do programa, permite barramento de dados e programa separadamente otimizados e ainda guarda dados constantes na memoria do programa, requerendo instrumentação especifica. Ja os tipos de arquitetura de memoria MSP430, Freesclae HCS08 e ARM 7, são mais simples que a arquitetura Havard, sendo também menos eficientes.
 
 5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+	
 	Por se tratar de um system-on-chip de facil acesso, com um alto nivel de processamento com um bom espaço de armazenamento e sendo possivel trabalhar com a linguagem c de programação.
