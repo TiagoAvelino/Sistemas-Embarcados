@@ -20,7 +20,7 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 4. Apresente somente as pastas dentro da pasta 'root'.
  ```C
   $ cd /
-	$ ls -d */
+  $ ls -d */
    ```
 
 5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
