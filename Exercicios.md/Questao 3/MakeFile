@@ -1,0 +1,16 @@
+Questão_9:
+	gcc -c num_caracs.c
+	gcc -c Questão_9.c
+	gcc -o cont_caracs num_caracs.o Questão_9.o
+
+Questão_11: 
+	gcc -c num_caracs.c
+	gcc -c Questão_11.c
+	gcc -o conta num_caracs.o Questão_11.o
+
+clean:
+rm -f *.o cont_caracs cont_caracs2
+
+
+
+
