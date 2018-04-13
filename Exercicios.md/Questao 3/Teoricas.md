@@ -23,33 +23,44 @@ $ Ola Eu
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 ```
+Nome inserido: Tiago Avelino.
+Resposta : OLA Tiago
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
 ```
+Nome inserido: Tiago Avelino.
+Resposta: OLA "Tiago
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_1
 ```
+Entrada :echo Tiago | ./a.out
+Resposta : OLA Tiago
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_1
 ```
+Entrada :echo Tiago Avelino | ./a.out
+Resposta : OLA Tiago
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo "Eu Mesmo" | ./ola_usuario_1
 ```
+Entrada :echo "Tiago Avelino" | ./a.out
+Resposta : OLA Tiago
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
 ```
+Resposta: OLA Ola. 
 
 4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
 
@@ -64,32 +75,46 @@ $ Ola Eu
 ```bash
 $ ./ola_usuario_2 Eu Mesmo
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA Tiago Avelino
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_2 "Eu Mesmo"
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA Tiago Avelino
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_2
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA 
+
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_2
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA 
+
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_2
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA 
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_2 < ola.txt
 ```
+Nome inserido: Tiago Avelino
+Resposta : OLA 
 
 6. Crie um código em C que faz o mesmo que o código da questão 4, e em seguida imprime no terminal quantos valores de entrada foram fornecidos pelo usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_3':
 
